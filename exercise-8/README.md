@@ -1,4 +1,4 @@
-## Exercise 7 - Your first Docker file
+## Exercise - Your first Docker file
 ======================================
 
 1. Create a empty Dockerfile in this folder

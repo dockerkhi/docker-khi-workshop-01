@@ -1,4 +1,4 @@
-## Exercise 8 - Create a new Dockerfile to build your assignment
+## Exercise - Create a new Dockerfile to build your assignment
 ============================================
 
 This dir contains a Node.js app, you need to get it running in a container
