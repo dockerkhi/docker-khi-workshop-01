@@ -9,4 +9,4 @@
 6. Check the meta data for your container `docker container inspect <ID>`
 7. Stop your container `docker container stop <ID>`
 8. Check container is stopped `docker container ls`
-9. Remove your container `docker container rm`
+9. Remove your container `docker container rm <ID>`
