@@ -5,14 +5,16 @@ For this exercise you will need an account on hub.docker.com. Once you have crea
 
 1. Pull the httpd (Apache) image `docker pull httpd:alpine`
 2. Lets run the image `docker run -it --name my-httpd httpd:alpine bash`
-3. Let change the text in the default html file: `vi /usr/local/apache2/htdocs/index.html`
+3. To Get Vim first update the packages `apt-get update`
+4. Now install Vim by `apt-get install vim`
+3. Let change the text in the default html file: `vim /usr/local/apache2/htdocs/index.html`
 4. Change the 'It works!' to your name.
 
 hint: You can move into edit mode by pressing `i`
 
 hint: You can get out of edit mode by pressing `esc`
 
-hint: Once you have done editing, press `shift + ;`, `wq` and then enter to save and quit the file.
+hint: Once you have done editing, press `wq` and then enter to save and quit the file.
 
 5. Exit the container using `exit` command
 6. Check if your changes hold using `docker diff my-httpd`
