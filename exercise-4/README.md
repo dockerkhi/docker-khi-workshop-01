@@ -14,7 +14,7 @@ hint: You can move into edit mode by pressing `i`
 
 hint: You can get out of edit mode by pressing `esc`
 
-hint: Once you have done editing, press `shift + ;`, `wq` and then enter to save and quit the file.
+hint: Once you have done editing, press `wq` and then enter to save and quit the file.
 
 5. Exit the container using `exit` command
 6. Check if your changes hold using `docker diff my-httpd`
